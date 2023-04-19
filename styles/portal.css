@@ -1,0 +1,57 @@
+body {
+  margin: 12px auto;
+  max-width: 50%;
+}
+#content {
+  overflow: hidden;
+  margin: 12px;
+  padding: 9px 0 9px 0;
+}
+
+body > div {
+  background-color: mintcream;
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;    
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: inset 0 2em 0 0 teal;
+}
+
+footer {
+  font-size: 0.6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 0 0 teal;
+}
+
+header,
+footer {
+  padding: 3px 3px 3px 3px;
+  color: teal;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px dotted teal;
+}
+
+main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 12%;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+main > article {
+  padding: 3px;
+  margin: 24px 0 24px 0;
+}
+
+img {
+  width: 20%;
+  margin: 12px 4px 12px 4px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 3px 1px cadetblue;
+}
