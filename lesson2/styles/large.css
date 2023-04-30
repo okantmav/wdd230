@@ -5,14 +5,26 @@
   }
 
   .col-one {
-      grid-column: 1 / 2;
-    }
-    
-    .col-two {
-      grid-column: 2 / 3;
-    }
-    
-    .col-three {
-      grid-column: 3 / 4;
-    }
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+  }
+
+  .col-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+  }
+
+  .col-three {
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+  }
+
+  img {
+    max-width: 75%;
+  }
+
+  p {
+    font-size: 1.9em;
+    padding: 6px 9px 6px 9px;
+  }
 }
