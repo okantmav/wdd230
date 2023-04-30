@@ -1,6 +1,12 @@
+:root {
+  /*Web Site Fonts*/
+  --roboto-ff: "Roboto", sans-serif;
+  --roboto-slab-ff: "Roboto Slab", serif;
+}
+
 body {
   margin: 12px auto;
-  max-width: 50%;
+  max-width: 100%;
 }
 #content {
   overflow: hidden;
@@ -16,16 +22,16 @@ body > div {
 header {
   display: flex;
   flex-direction: column;
-  font-size: 1.2rem;    
+  font-size: 0.9rem;    
   font-weight: 900;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: var(--roboto-slab-ff),
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   box-shadow: inset 0 2em 0 0 teal;
 }
 
 footer {
   font-size: 0.6rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--roboto-slab-ff);
   box-shadow: 0 2px 0 0 teal;
 }
 
@@ -39,10 +45,10 @@ footer {
 }
 
 main {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--roboto-ff);
   padding-left: 12%;
   border-radius: 12px;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 main > article {
   padding: 3px;
@@ -50,7 +56,7 @@ main > article {
 }
 
 img {
-  width: 20%;
+  width: 36%;
   margin: 12px 4px 12px 4px;
   border-radius: 12px;
   box-shadow: 1px 1px 3px 1px cadetblue;

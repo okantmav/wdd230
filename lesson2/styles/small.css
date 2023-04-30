@@ -1,0 +1,99 @@
+:root {
+  /*Web Site Fonts*/
+  --roboto-ff: "Roboto", sans-serif;
+  --roboto-slab-ff: "Roboto Slab", serif;
+}
+
+#content {
+  overflow: hidden;
+  margin: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  font-weight: 900;
+  font-family: var(--roboto-slab-ff);
+  border-bottom: 3px solid teal;
+}
+
+main {
+  max-width: auto;
+  margin: 0 auto;
+  background-color: white;
+  font-family: var(--roboto-ff);
+  font-size: 0.7rem;
+}
+
+footer {
+  font-size: 0.6rem;
+  font-family: var(--roboto-slab-ff);
+  border-top: 3px solid teal;
+}
+
+header,
+footer {
+  color: teal;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px 3px 3px 3px;
+  background-color: mintcream;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+  max-width: auto;
+  border: 3px 3px 3px 3px;
+}
+
+.principle-title {
+  color: mintcream;
+  padding: 6px;
+  background-color: cadetblue;
+}
+
+.col-one,
+.col-two,
+.col-three {
+  background-color: mintcream;
+  border-radius: 6px;
+  border: 1px solid cadetblue;
+  margin: 6px 6px 6px 6px;
+}
+
+.col-one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.col-two {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.col-three {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  padding: 9px 9px 9px 9px;
+  text-align: center;
+}
+
+h1,
+a {
+  padding-left: 12px;
+}
+
+article>p {
+  font-family: var(--roboto-ff);
+  padding: 6px 9px 6px 9px;
+}

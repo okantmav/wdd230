@@ -1,0 +1,18 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+  .grid-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .col-one {
+      grid-column: 1 / 2;
+    }
+    
+    .col-two {
+      grid-column: 2 / 3;
+    }
+    
+    .col-three {
+      grid-column: 3 / 4;
+    }
+}
