@@ -1,0 +1,13 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	header {
+		font-size: 1.6rem;
+	}
+	nav a {
+		font-size: 1.6rem;
+	}
+  
+    table {
+      font-size: 1.2rem;
+    }
+}

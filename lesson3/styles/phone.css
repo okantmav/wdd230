@@ -1,0 +1,143 @@
+:root {
+    /*Web Site Fonts*/
+    --roboto-ff: "Roboto", sans-serif;
+    --roboto-slab-ff: "Roboto Slab", serif;
+  }
+  
+  #content {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-family: var(--roboto-slab-ff);
+    border-bottom: 3px solid teal;
+  }
+
+  nav {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  nav ul li a {
+    display: block;
+    color: teal;
+    text-align: center;
+    padding: 0.9rem;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    color: mintcream;
+    background-color: teal;
+    border-radius: 3px;
+    box-shadow: cadetblue 0 3px;
+    padding: 24px;
+  }
+  
+  main {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    font-family: var(--roboto-ff);
+    font-size: 1.1rem;
+    padding: 24px;
+  }
+  section {
+    padding: 24px;
+  }
+  
+  footer {
+    font-size: 0.6rem;
+    font-family: var(--roboto-slab-ff);
+    border-top: 3px solid teal;
+  }
+  
+  header,
+  footer {
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    background-color: mintcream;
+    border-bottom: 24px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    padding-bottom: 45px;
+  }
+  
+  table {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    border-left: 1.5rem;
+    font-size: 0.5rem;
+  }
+
+  .primary-color {
+    width: 120px;
+    background-color: teal;
+  }
+
+  .secondary-color {
+    width: 120px;
+    background-color: mintcream;
+  }
+
+  .accent-color-a {
+    width: 120px;
+    background-color: cadetblue;
+  }
+
+  .accent-color-b {
+    width: 120px;
+    background-color: #732424;
+  }
+
+  th {
+    padding: 1.3rem;
+  }
+
+  .sample-a {
+    color: teal;
+    background-color: mintcream;
+    font-family: var(--roboto-slab-ff);
+    text-align: center;
+  }
+
+  .sample-b {
+    color: teal;
+    background-color: mintcream;
+    border-radius: 3px;
+    box-shadow: cadetblue 0 3px;
+    font-family: var(--roboto-slab-ff);
+    text-align: center;
+  }
+
+  .sample-c {
+    color: #732424;;
+    background-color: mintcream;
+    font-family: var(--roboto-ff);
+    text-align: center;
+  }
+
+  .sample-d {
+    color: mintcream;
+    background-color: teal;
+    font-family: var(--roboto-slab-ff);
+    text-align: center;
+  }
