@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Aguascalientes City Chamber of Commerce is a non-profit organization that represents the interests of businesses in the city and Aguascalientes State in Mexico. We work to promote economic development, improve the business environment, and advocate for the interests of our members."
+    />
+    <title>OKANTMAV - WDD 230 | Aguascalientes City Chamber of Commerce</title>
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body class="content">
+    <header>
+      <div class="logo">
+        <picture>
+          <img
+            src="../lesson3/images/ags-city-chamber-logo-wine-background-enshorted.png"
+            alt="Aguascalientes City Chamber of Commerce Logo"
+          />
+        </picture>
+        <section class="headings">
+          <h1>Aguascalientes City</h1>
+          <h2>Chamber of Commerce</h2>
+        </section>
+        <div class="social">
+          <a href="https://www.facebook.com/Meta"
+            ><img src="images/f-logo-RGB-Blue-1024.png" alt="Facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="images/LI-In-Bug.png" alt="Facebook logo"
+          /></a>
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+      </div>
+      <div class="time">
+        <span id="currentdate"></span>
+      </div>
+      <nav>
+        <ul id="primaryNav">
+          <li class="active"><a href="#">Discovery</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section><p>Hero with site name and call to action</p></section>
+      <section><p>Event(s)</p></section>
+      <section><p>News Release</p></section>
+      <section><p>Weather</p></section>
+      <section><p>Join</p></section>
+      <div class="spotlight">
+        <section><p>Company Spotlight A</p></section>
+        <section><p>Company Spotlight B</p></section>
+        <section><p>Company Spotlight C</p></section>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-grid">
+        <picture class="logo-footer">
+          <img
+            src="../lesson3/images/ags-city-chamber-logo-wine-background-enshorted.png"
+            alt="Aguascalientes City Chamber"
+          />
+        </picture>
+        <section class="address">
+          <h2>Aguascalientes City Chamber of Commerce</h2>
+          <p>Av. Patria #1543</p>
+          <p>Aguascalientes, AGS-MX</p>
+        </section>
+        <section class="contact">
+          <p>info@agscitychamber.org</p>
+          <p>+52 449-123-4567</p>
+          <p>Location Map</p>
+        </section>
+      </div>
+      <section class="project-info">
+        <article class="project-info-a">
+          <p>
+            &copy;<span id="currentyear"></span> Aguascalientes City Chamber
+          </p>
+          <p>Marco Macias Vazquez</p>
+          <p>WDD 230 Project</p>
+        </article>
+        <article class="project-info-b">
+          <p>Last Updated:<span id="lastupdated"></span></p>
+        </article>
+      </section>
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="../scripts/current-year.js"></script>
+    <script src="../scripts/last-modified.js"></script>
+    <script src="../start-navigation/start-navigation/js/scripts.js"></script>
+  </body>
+</html>

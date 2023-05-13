@@ -1,0 +1,40 @@
+/*Desktop view*/
+@media only screen and (min-width: 64rem) {
+  .content {
+    width: auto;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+    border: none;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid cadetblue;
+  }
+
+  main {
+    max-width: 100%;
+  }
+
+  footer {
+    display: block;
+  }
+  
+  footer img {
+    width: 180px;
+  }
+}
+
+/*End large**/
