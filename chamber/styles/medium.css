@@ -25,6 +25,10 @@
     max-width: 900px;
   }
 
+  main section p {
+    font-size: 0.6rem;
+  }
+
   main section:nth-child(1) {
     grid-column: 1/4;
     grid-row: 1/2;

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+
 :root {
   /*Web Site Fonts*/
   --roboto-ff: "Roboto", sans-serif;
@@ -22,10 +24,10 @@ body > div {
 header {
   display: flex;
   flex-direction: column;
-  font-size: 0.9rem;    
+  font-size: 0.9rem;
   font-weight: 900;
-  font-family: var(--roboto-slab-ff),
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: var(--roboto-slab-ff), "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
   box-shadow: inset 0 2em 0 0 teal;
 }
 

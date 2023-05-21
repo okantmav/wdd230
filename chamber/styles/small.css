@@ -1,10 +1,17 @@
-/*Phone View*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
 
+/*Phone View*/
 :root {
   /*Web Site Fonts*/
   --roboto-ff: "Roboto", sans-serif;
   --roboto-slab-ff: "Roboto Slab", serif;
 }
+
+/* Rules for sizing the icon. */
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: teal }
 
 /*Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.*/
 html {
@@ -77,6 +84,13 @@ footer {
   height: auto;
 }
 
+.image-heroe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 #currentdate {
   font-family: var(--roboto-slab-ff);
   font-size: 0.7rem;
@@ -109,6 +123,11 @@ footer div section:nth-child(3) {
   padding: 12px;
   border-bottom: 1px solid teal;
 }
+
+.join {
+  padding: 1.2rem;
+}
+
 /*Hamburger button setting*/
 button {
   margin: 0.2rem 2vw;
@@ -191,6 +210,8 @@ main section {
 }
 
 main section:nth-child(1) {
+  display: flex;
+  flex-direction: column;
   grid-row: 1/2;
 }
 
