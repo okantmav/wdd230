@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The goal of this activity is to alleviate some of the load time by waiting until the page assets are actually needed by the user as they scroll. We introduce the design pattern of progressive loading or 'lazy-loading' of images."
+    />
+    <title>OKANTMAV - WDD 230 | Progressive Loading of Images</title>
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/blur.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Progressive Loading of Images</h1>
+    </header>
+    <main>
+      <picture>
+        <img
+          data-src="images/little-plant-ZlqA3R5FXKo-unsplash.jpg"
+          src="images/no-image-placeholder.jpg"
+          alt="Two gray kitties"
+        />
+      </picture>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@little_plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >little plant</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/kitties?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+      <picture>
+        <img
+          data-src="images/little-plant-WHx8_Dq01IM-unsplash.jpg"
+          src="images/no-image-placeholder.jpg"
+          alt="Orange and gray kitites"
+        />
+      </picture>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@little_plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >little plant</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/kitties?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+      <picture>
+        <img
+          data-src="images/little-plant-sBxQ-8aQZWY-unsplash.jpg"
+          src="images/no-image-placeholder.jpg"
+          alt="One orange kitty"
+        />
+      </picture>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@little_plant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >little plant</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/kitties?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+      <picture>
+        <img
+          data-src="images/sarah-mae-E9EtHWhymOI-unsplash.jpg"
+          src="images/no-image-placeholder.jpg"
+          alt="One gray kitty"
+        />
+      </picture>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@graystreet?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Sarah Mae</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/kitties?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+      <picture>
+        <img
+        data-src="images/hang-niu-Tn8DLxwuDMA-unsplash.jpg"
+          src="images/no-image-placeholder.jpg"
+          alt="One white kitty"
+        />
+      </picture>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@niuhang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >hang niu</a
+        >
+        on
+        <a
+          href="https://unsplash.com/images/animals/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+      <picture>
+        <img
+        data-src="images/alexander-london-mJaD10XeD7w-unsplash.jpg"
+          src="images/no-image-placeholder.jpg"
+          alt="One furr kitty"
+        />
+      </picture>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@alxndr_london?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Alexander London</a
+        >
+        on
+        <a
+          href="https://unsplash.com/images/animals/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+    </main>
+    <footer></footer>
+    <script src="scripts/proLoading.js"></script>
+  </body>
+</html>

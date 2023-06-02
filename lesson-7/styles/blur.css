@@ -1,0 +1,37 @@
+body {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: mintcream;
+}
+
+h1,
+p {
+  padding: 3px;
+  color: teal;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+picture img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+img {
+  width: 100%;
+  border: 2px solid cadetblue;
+  border-radius: 12px;
+}
+
+@media only screen and (min-width: 32.5em) {
+  body {
+    max-width: 100%;
+  }
+
+  img {
+    width: auto;
+  }
+}
