@@ -93,9 +93,18 @@
     justify-content: space-around;
     padding-left: 6px;
   }
-  
+
   .project-info-a {
     display: flex;
     justify-content: space-around;
+  }
+
+  .brighten img {
+    transform: scale(.7);
+    filter: brightness(1.2);
+  }
+
+  .brighten img:hover {
+    transform: translateY(-3px);
   }
 }
