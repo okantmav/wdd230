@@ -1,0 +1,70 @@
+body {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: mintcream;
+  padding: 6rem;
+}
+
+table {
+  margin: 10px auto;
+  border: thin solid cadetblue;
+  box-shadow: 0 0 3px cadetblue;
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: bold;
+}
+
+tbody {
+  font-size: 95%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+  color: brown;
+  font-size: 0.85rem;
+}
+
+tr:first-child th,
+.highlight {
+  background-color: teal;
+  color: mintcream;
+}
+
+th:nth-child(1) {
+  background-color: teal;
+  border: none;
+}
+
+th,
+td {
+  padding: 1.2rem 3.6rem;
+  border: 1px solid cadetblue;
+}
+
+th {
+  background-color: brown;
+  color: mintcream;
+  font-size: larger;
+}
+
+td {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color:skyblue;
+}
+
+.check-mark {
+  color: blueviolet;
+}
+
+.multiplication-x {
+  color:crimson;
+}
