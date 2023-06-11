@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The purpose of this page is for the prospective user to apply to join the chamber of commerce through a membership application form."
+    />
+    <title>
+      OKANTMAV - WDD 230 | Aguascalientes City Chamber of Commerce | Join
+    </title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="icon" href="../favicon.ico" />
+  </head>
+  <body class="content">
+    <header class="clearfix">
+      <div id="banner">
+        <p><span id="event"></span></p>
+      </div>
+      <div class="logo">
+        <picture>
+          <img
+            src="../lesson3/images/ags-city-chamber-logo-wine-background-enshorted.png"
+            alt="Aguascalientes City Chamber of Commerce Logo"
+          />
+        </picture>
+        <section class="headings">
+          <h1>Aguascalientes City</h1>
+          <h2>Chamber of Commerce</h2>
+        </section>
+        <div class="social">
+          <a href="https://www.facebook.com/Meta"
+            ><img src="images/f-logo-RGB-Blue-1024.png" alt="Facebook logo"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="images/LI-In-Bug.png" alt="Facebook logo"
+          /></a>
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+      </div>
+      <div class="time">
+        <span id="currentdate"></span>
+      </div>
+      <nav class="clearfix">
+        <ul id="primaryNav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discovery</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+</header>
+      <main class="clearfix">
+        <section class="application">
+          <h1>Aguascalientes City Chamber New Member Application</h1>
+        </section>
+        <form action="thanks.html" method="get" class="form">
+          <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top">
+              First Name* <input type="text" name="fname" required />
+            </label>
+            <label class="top">
+              Last Name* <input type="text" name="lname" required />
+            </label>
+            <label class="top">
+              Title
+              <input
+                type="text"
+                name="title"
+                placeholder="Bussiness Position"
+                pattern="^.{7,}$"
+              />
+            </label>
+            <label class="top">
+              Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="anyone@mail.com"
+                required
+              />
+            </label>
+            <label class="top">
+              Mobile Number*
+              <input
+                type="tel"
+                name="phone"
+                placeholder="1235551234"
+                required
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Bussiness Information</legend>
+            <label class="top">
+              Bussiness Name* <input type="text" name="bussiness" required />
+            </label>
+            <h4>Membership Level Benefits</h4>
+            <label class="sbs"
+              ><input type="radio" name="membership" value="np" /> NP Membership
+              is for non profit organizations and there is no fee</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="bronze" /> Bronze
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="silver" /> Silver
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="gold" /> Gold
+              Membership</label
+            >
+            <h4>Bussiness Description</h4>
+            <label class="sbs">
+              <textarea name="bdescription" id="" cols="36" rows="7"></textarea>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label class="sbs" type="hidden" name="current_date"
+              ><span id="currentdate"></span
+            ></label>
+          </fieldset>
+          <input type="submit" value="Send my request" class="submitBtn" />
+        </form>
+        <div class="benefits">
+          <h2>Membership Benefits</h2>
+          <section>
+            <h2>Non Profit Organization</h2>
+            <p class="cost">Free of charge</p>
+            <p>Low training cost</p>
+            <p>Special free advertising</p>
+            <p>Special event discounts</p>
+          </section>
+          <section>
+            <h2>Bronze Membership</h2>
+            <p class="cost">$3,000.00 MXN Monthly</p>
+            <p>Low training cost</p>
+            <p>Special advertising</p>
+            <p>Special event discounts</p>
+          </section>
+          <section>
+            <h2>Silver Membership</h2>
+            <p class="cost">$7,000.00 MXN Monthly</p>
+            <p>Free training</p>
+            <p>Preferencial advertising</p>
+            <p>50% event discounts for groups</p>
+          </section>
+          <section>
+            <h2>Gold Membership</h2>
+            <p class="cost">$10,000.00 MXN Monthly</p>
+            <p>Free training, complete acces to our catalog courses</p>
+            <p>National Advertising</p>
+            <p>Free events</p>
+          </section>
+        </div>
+      </main>
+      <footer class="clearfix">
+        <div class="footer-grid">
+          <picture class="logo-footer">
+            <img
+              src="../lesson3/images/ags-city-chamber-logo-wine-background-enshorted.png"
+              alt="Aguascalientes City Chamber"
+            />
+          </picture>
+          <section id="address">
+            <h2>Aguascalientes City Chamber of Commerce</h2>
+            <p>Av. Patria #1543</p>
+            <p>Aguascalientes, AGS-MX</p>
+          </section>
+          <section class="contact">
+            <p>info@agscitychamber.org</p>
+            <p>+52 449-123-4567</p>
+            <p>
+              <a href="https://goo.gl/maps/D8Zy6zdbEWzcB5797" target="_blank"
+                >Location Map</a
+              >
+            </p>
+          </section>
+        </div>
+        <section class="project-info">
+          <article class="project-info-a">
+            <p>
+              &copy;<span id="currentyear"></span> Aguascalientes City Chamber
+            </p>
+            <p>Marco Macias Vazquez</p>
+            <p>WDD 230 Project</p>
+          </article>
+          <article class="project-info-b">
+            <p>Last Updated:<span id="lastupdated"></span></p>
+            <p>
+              Time between user visits: <span id="timeBetweenVisits"></span>
+            </p>
+          </article>
+        </section>
+      </footer>
+      <script src="scripts/currentdate.js"></script>
+      <script src="../scripts/current-year.js"></script>
+      <script src="../scripts/last-modified.js"></script>
+      <script src="../start-navigation/start-navigation/js/scripts.js"></script>
+      <script src="scripts/headerBanner.js"></script>
+      <script src="../lesson-7/scripts/proLoading.js"></script>
+      <script src="../chamber/scripts/TimeBetweenVisits.js"></script>
+    </header>
+  </body>
+</html>
