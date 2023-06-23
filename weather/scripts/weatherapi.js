@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'api.openweathermap.org/data/2.5/weather?q=Fairbanks,us&APPID=797bff854894fe6d1e97c0dfb703f0bd';
+const url = 'api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&APPID=797bff854894fe6d1e97c0dfb703f0bd';
 
 async function apiFetch() {
   try {
@@ -20,9 +20,7 @@ async function apiFetch() {
   }
 }
 
-apiFetch();
-
-function displayResults(weatherData) {
+async function displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
@@ -32,3 +30,5 @@ function displayResults(weatherData) {
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = desc;
 }
+
+apiFetch();
