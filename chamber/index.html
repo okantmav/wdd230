@@ -116,7 +116,7 @@
       </section>
       <section>
         <h2>Weather</h2>
-        <article>
+        <!--<article>
           <table>
             <tr>
               <th class="tempeture-icon">
@@ -168,9 +168,23 @@
               <th>Wind Chill</th>
               <th><span id="wind-chill"></span></th>
             </tr>
-          </table>
-          <section>Weather data <a href="https://openweathermap.org/">OpenWeatherMap</a></section>
-        </article>
+          </table>-->
+
+        <div>
+          <h3>
+            The current temperature in Aguascalientes, Mexico is
+            <span id="current-temp"></span> &deg;F
+          </h3>
+          <h3>Current Condition</h3>
+          <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+          </figure>
+        </div>
+        <section>
+          Weather data by
+          <a href="https://openweathermap.org/">OpenWeatherMap</a>
+        </section>
       </section>
       <section>
         <button>Join Us!</button>
@@ -205,7 +219,7 @@
           <p>builda@treefort.com</p>
           <p>+999-9999-9999 | Website</p>
         </section>
-        </div>
+      </div>
     </main>
     <footer class="clearfix">
       <div class="footer-grid">
@@ -251,5 +265,6 @@
     <script src="scripts/headerBanner.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="../chamber/scripts/TimeBetweenVisits.js"></script>
+    <script src="../weather/scripts/weatherapi.js"></script>
   </body>
 </html>
